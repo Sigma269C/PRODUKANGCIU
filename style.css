@@ -9,7 +9,7 @@ body{
     padding: 0px;
     }
 header{
-    display: flex;
+    display:flex;
     width: 100%;
     background-color:rgb(56, 0, 0); 
     position: fixed;
@@ -36,7 +36,6 @@ nav a{
     color: rgb(255, 255, 255);
     float: left; 
     top:220px;
-    transition:0.5s;
     }
     nav a:hover {
         background-color:#000000;
@@ -135,12 +134,14 @@ footer {
                 display: flex; 
                 flex-wrap:wrap;
             } 
+            
         section.product .container{
                 display: flex;
-                justify-content: center; 
+                justify-content: space-around; 
                 flex-wrap: wrap;
-                padding-top: 400px;
+                padding-bottom: 100px;
                 scale:100%;
+                margin: 225px;
             } 
         section.product .container .card{ 
                 background-color: white; 
