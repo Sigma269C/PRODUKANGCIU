@@ -139,7 +139,7 @@ footer {
                 display: flex;
                 justify-content: space-around; 
                 flex-wrap: wrap;
-                padding-top: 400px;
+                padding-top: 0px;
                 scale:100%;
                 margin: 225px;
             } 
