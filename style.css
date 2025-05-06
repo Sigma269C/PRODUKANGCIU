@@ -3,6 +3,9 @@ button{
     scale: 1.5;
     box-shadow: 0 0 5 black;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0px;
     font-family:monospace;
